@@ -140,25 +140,3 @@ public class Singly_Linked_List {
         }
     }
 }
-
-
-class Main {
-    public static void main(String[] args) {
-        Singly_Linked_List sll = new Singly_Linked_List();
-        sll.addFirst(3);
-        sll.addFirst(2);
-        sll.addFirst(1);
-        sll.addFirst(0);
-        sll.addLast(100);
-
-        sll.add(69,3);
-        sll.display();
-        System.out.println(sll.delFirst());
-        sll.display();
-
-        System.out.println(sll.delLast());
-        sll.display();
-        System.out.println(sll.del(3));
-        sll.display();
-    }
-}
