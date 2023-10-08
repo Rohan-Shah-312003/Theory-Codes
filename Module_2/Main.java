@@ -34,11 +34,11 @@ public class Main {
 
         // Circular Linked List
         Circular_Linked_List cll = new Circular_Linked_List();
-        cll.addLast(12);
-        cll.addLast(11);
-        cll.addLast(10);
-        cll.addLast(9);
-        cll.addLast(8);
+        cll.add(12);
+        cll.add(11);
+        cll.add(10);
+        cll.add(9);
+        cll.add(8);
 
         cll.display();
 

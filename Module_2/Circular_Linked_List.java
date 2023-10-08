@@ -10,8 +10,10 @@ public class Circular_Linked_List {
         this.tail = null;
     }
 
-    public void addLast(int val) {
+    public void add(int val) {
         Node node = new Node(val);
+
+        // checking if the list is empty - then pointing the head and tail as the new node.
         if (head == null) {
             head = node;
             tail = node;
@@ -32,18 +34,6 @@ public class Circular_Linked_List {
         System.out.println("HEAD");
     }
 
-    public Node find(int val) {
-        Node node = head;
-        while (node != null) {
-            if (node.val == val) {
-                return node;
-            }
-
-            node = node.next;
-        }
-
-        return null;
-    }
     public void delete(int val) {
         Node node = head;
         if (node == null) {
