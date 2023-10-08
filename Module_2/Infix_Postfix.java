@@ -1,12 +1,10 @@
 package Module_2;
 
 // using stack to convert infix expression to postfix
-
+// stack holds operators and directly prints operands.
 import java.util.*;
 
 public class Infix_Postfix {
-
-    static LinkedList<String> stack = new LinkedList<>();
 
     public static void main(String[] args) {
 

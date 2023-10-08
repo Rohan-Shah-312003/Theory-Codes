@@ -1,7 +1,7 @@
 package Module_2;
 
 import java.util.*;
-public class SinglyLinkedList {
+public class SinglyLinkedList_Inbuilt {
     public static void main(String[] args) {
         function();
     }
